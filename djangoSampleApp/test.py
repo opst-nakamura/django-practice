@@ -9,4 +9,4 @@ def test(request):
     print(Path(__file__).resolve())
     print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     print("test動いてる")
-    return render(request, 'test.html')
+    return render(request, "test.html")
